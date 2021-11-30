@@ -18,4 +18,8 @@ app.get('/home',(req,res) => {
    res.send("My name is hulu");
 });
 
+app.get('/digi',(req,res) => {
+   res.send("My name is digi");
+});
+
 app.listen(port,() => console.log(`Server is running on ${port}`));
