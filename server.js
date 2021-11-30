@@ -15,7 +15,7 @@ app.get('/contact',(req,res) => {
 });
 
 app.get('/home',(req,res) => {
-   res.send("My name is roku");
+   res.send("My name is hulu");
 });
 
 app.listen(port,() => console.log(`Server is running on ${port}`));
