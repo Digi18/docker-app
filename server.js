@@ -14,4 +14,8 @@ app.get('/contact',(req,res) => {
    res.send(`Hello visit ${process.env.URL}`);
 });
 
+app.get('/home',(req,res) => {
+   res.send("My name is roku");
+});
+
 app.listen(port,() => console.log(`Server is running on ${port}`));
